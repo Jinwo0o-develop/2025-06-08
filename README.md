@@ -38,7 +38,6 @@ is_alive 함수를 기준으로 하고 싶은데 아직 인스턴스, 메소드 
 아직 배움초반이기 때문에 더 많이 노력해보고 확실한 개념을 잡아야 할 필요가 있겠다고 느꼈다.<br>
 머리속으로는 TRUE라는 값을 반환해주면 그걸 기준으로 조건을 나누고 싶었다.<br>
 true 즉, 살아있으면 self.hp -= damage 수행, false면 "게임오버" 같은 방식으로 나누려고 했다.<br>
-내가 한 것 중 끝낸 것은 다음과 같다.<br>
 ![중간수정](https://github.com/Jinwo0o-develop/2025-06-08/blob/main/%EC%88%98%EC%A0%95get_attacked.png?raw=true)<br>
 
 # attack 함수와 __str__ 함수
