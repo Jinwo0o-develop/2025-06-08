@@ -1,8 +1,7 @@
 # 2025-06-08 (게임캐릭터 피격 및 공격구현)
 
 # 함수 설명
-__init__ 함수에서 게임 캐릭터를 받음 / is_alive 함수는 게임 캐릭터 생사여부 확인 / get_attacked함수에서 공격한 캐릭터의 공격력만큼 체력을 깍음
-/ attack함수 게임 캐릭터가 살아 있으면 다른 캐릭터 공격 / __str__함수 출력을 도움
+__init__ 함수에서 게임 캐릭터를 받음is_alive 함수는 게임 캐릭터 생사여부 확인  get_attacked함수에서 공격한 캐릭터의 공격력만큼 체력을 깍음  attack함수 게임 캐릭터가 살아 있으면 다른 캐릭터 공격  __str__함수 출력을 도움  
 
 앞서 다음과 같은 문제를 받고나서 무작정 코드를 쓰기 전 아이디어를 작성해보았다.
 캐릭터가 살아 있는지 확인을 어떻게 할 것인지, 함수는 어떤걸 쓸 것인지 등 구상한 후 코드를 작성했다.
@@ -41,7 +40,7 @@ true 즉, 살아있으면 self.hp -= damage 수행, false면 "게임오버" 같�
 # attack 함수와 __str__ 함수
 ![](https://github.com/Jinwo0o-develop/2025-06-08/blob/main/attack%20%ED%95%A8%EC%88%98%EC%99%80%20str.png?raw=true)
 
-# 첫번쨰_실행
+# 첫번째_실행
 character_1 = GameCharacter("Ww영훈전사wW", 200, 30)
 character_2 = GameCharacter("Xx지웅최고xX", 100, 50)
 
